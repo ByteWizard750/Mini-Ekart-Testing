@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini E-Kart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header>
+            <h1>🛒 Mini E-Kart</h1>
+            <p>Your one-stop shop for electronics</p>
+        </header>
+
+        <!-- Main Content -->
+        <main>
+            <!-- Products Section -->
+            <section class="products-section">
+                <h2>Our Products</h2>
+                <div class="products-grid">
+                    <!-- Product 1: Phone -->
+                    <div class="product-card">
+                        <div class="product-image">📱</div>
+                        <h3 class="product-name">Smartphone</h3>
+                        <p class="product-price">$699.99</p>
+                        <button class="add-btn" data-name="Smartphone" data-price="699.99">Add to Cart</button>
+                    </div>
+
+                    <!-- Product 2: Laptop -->
+                    <div class="product-card">
+                        <div class="product-image">💻</div>
+                        <h3 class="product-name">Laptop</h3>
+                        <p class="product-price">$1299.99</p>
+                        <button class="add-btn" data-name="Laptop" data-price="1299.99">Add to Cart</button>
+                    </div>
+
+                    <!-- Product 3: Headphones -->
+                    <div class="product-card">
+                        <div class="product-image">🎧</div>
+                        <h3 class="product-name">Headphones</h3>
+                        <p class="product-price">$199.99</p>
+                        <button class="add-btn" data-name="Headphones" data-price="199.99">Add to Cart</button>
+                    </div>
+
+                    <!-- Product 4: Tablet -->
+                    <div class="product-card">
+                        <div class="product-image">📱</div>
+                        <h3 class="product-name">Tablet</h3>
+                        <p class="product-price">$499.99</p>
+                        <button class="add-btn" data-name="Tablet" data-price="499.99">Add to Cart</button>
+                    </div>
+
+                    <!-- Product 5: Smart Watch -->
+                    <div class="product-card">
+                        <div class="product-image">⌚</div>
+                        <h3 class="product-name">Smart Watch</h3>
+                        <p class="product-price">$299.99</p>
+                        <button class="add-btn" data-name="Smart Watch" data-price="299.99">Add to Cart</button>
+                    </div>
+
+                    <!-- Product 6: Camera -->
+                    <div class="product-card">
+                        <div class="product-image">📷</div>
+                        <h3 class="product-name">Camera</h3>
+                        <p class="product-price">$899.99</p>
+                        <button class="add-btn" data-name="Camera" data-price="899.99">Add to Cart</button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Cart Section -->
+            <section class="cart-section">
+                <h2>Shopping Cart</h2>
+                <div class="cart-container">
+                    <!-- Empty cart message -->
+                    <div id="empty-message" class="empty-message">
+                        Your cart is empty.
+                    </div>
+                    
+                    <!-- Cart items container -->
+                    <div id="cart-items" class="cart-items">
+                        <!-- Cart items will be dynamically added here -->
+                    </div>
+                    
+                    <!-- Total price -->
+                    <div class="cart-total">
+                        <div class="total-price">
+                            <strong>Total: $<span id="total-price">0.00</span></strong>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2024 Mini E-Kart. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+# Mini E-Kart Testing Framework Requirements
+# Install with: pip install -r requirements.txt
+
+# Core testing framework
+selenium==4.15.2
+behave==1.2.6
+
+# WebDriver management
+webdriver-manager==4.0.1
+
+# Additional utilities
+requests==2.31.0
+pytest==7.4.3
+
+# For better test reporting
+allure-behave==2.13.2
+allure-python-commons==2.13.2
+
+# Development dependencies (optional)
+pytest-html==4.1.1
+pytest-xdist==3.3.1
+
